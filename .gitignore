@@ -1,0 +1,15 @@
+backend/credentials.json
+.env
+backend/__pycache__
+.vscode
+backend/ajax.py
+backend_env
+backend/token.json
+frontend/node_modules
+frontend/.env
+instance
+app.log
+cert.pem
+key.pemlocalhost.crt
+localhost.key
+package-lock.json
