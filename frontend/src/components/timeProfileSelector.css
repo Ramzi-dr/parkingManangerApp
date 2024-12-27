@@ -1,0 +1,100 @@
+.time-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .time-selector {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #62b6cb;
+    box-shadow: 0 2px 10px #b5c8ca;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    position: relative;
+    background-color: #7C93C3;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    max-height: 80%;
+    overflow-y: auto;
+  }
+  
+  .close-button {
+    position: sticky; /* Use sticky positioning to make it scroll with content */
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(45, 38, 38, 0.351);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    cursor: pointer;
+    line-height: 30px;
+  }
+  
+  
+  .close-button:hover {
+    background-color: #62b6cb;
+    color: black;
+  }
+  
+  .wheel-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .profile-option {
+    margin-bottom: 5px;
+    margin-left: 30%;
+    display: flex;
+    align-items: center;
+    padding: 1mm 0;
+    width: 60%;
+    cursor: pointer;
+  }
+  
+  .checkbox {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+   
+  }
+  
+  .profile-option.selected {
+    background-color: #62b6cb;
+    color: rgb(102, 25, 25);
+    border-radius: 5px;
+  }
+  
+  

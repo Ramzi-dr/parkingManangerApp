@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: auto; /* Allow the page to scroll */
+  }
+
+  .sub-user-list {
+    position: relative;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+  }
+  
+  .sub-user-list {
+    background-color: #7C93C3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0 auto;
+    max-width: 90%;
+    box-sizing: border-box;
+  }
+  
+  .scrollable-container {
+    max-height: 500px; /* Set the height for the container */
+    overflow-y: auto; /* Enable vertical scrolling within the container */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding-right: 10px; /* Padding to avoid scrollbar overlap */
+    box-sizing: border-box;
+  }
+  
+  .sub-user-items {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sub-user-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+  }
+  
+  /* Adjusting layout for name and details */
+  .sub-user-name {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between first name and last name */
+  }
+  
+  .sub-user-details {
+    display: flex;
+    justify-content: space-between; /* Space between email and status */
+    align-items: center;
+  }
+  
+  /* Keeping existing styles for text alignment */
+  .first-name {
+    text-align: left;
+  }
+  
+  .last-name {
+    text-align: left;
+  }
+  
+  .sub-user-email {
+    text-align: left;
+    padding-right: 10px; /* Some space before status */
+    flex: 1; /* Allow email to take up space */
+  }
+  
+  .sub-user-status {
+    text-align: right; /* Align status to the right */
+    padding-right: 5px; /* Small margin from the right edge */
+  }
+  
+  /* Media query for smaller devices */
+  @media (max-width: 600px) {
+    .sub-user-name,
+    .sub-user-email,
+    .sub-user-status,.sub-user-details {
+      font-size: 0.8rem; /* Adjust the font size for mobile devices */
+      text-decoration: none !important;
+    }
+  }
+  .sub-user-email,
+.sub-user-status ,.sub-user-details{
+    text-decoration: none !important;
+    color: inherit !important; /* Inherit color from parent */
+  
+}
+/* Ensure that no links are affecting the text */
+.sub-user-email:hover,
+.sub-user-status:hover {
+  text-decoration: none !important; /* Prevent underline on hover */
+}
+/* Add specific styles for active and inactive */
+.sub-user-status.active {
+    text-decoration: none !important; /* Ensure no underline on active */
+  }
+  
+  .sub-user-status.inactive {
+    text-decoration: none !important; /* Ensure no underline on inactive */
+  }
+
+  .email-input {
+    background-color: #04031b; /* Light gray background */
+    color: #888; /* Gray text color */
+    cursor: not-allowed; /* Change cursor to indicate it's not editable */
+  }
+  
+  .email-input::placeholder {
+    color: #bbb; /* Placeholder text color */
+    opacity: 1; /* Ensure placeholder is visible */
+  }
+
+  .input-hint {
+    color: #ff0000; /* Change this to your desired color */
+    font-size: 0.9rem; /* Adjust font size */
+    margin-bottom: 5px; /* Space between hint and input */
+    text-align: center; /* Center text */
+    background-color: #ff000044;
+    text-decoration-color: #888;
+    
+  }
+  

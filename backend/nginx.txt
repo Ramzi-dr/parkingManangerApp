@@ -1,0 +1,23 @@
+  GNU nano 7.2                                                                 webApp                                                                          
+server {
+    listen 8333;  # Listening on port 8333 for incoming connections
+    server_name 31.24.10.138;  # Change this to your domain or public IP
+#
+    location / {  # Assuming Vite dev server runs on localhost:8334y
+        proxy_pass http://127.0.0.1:8334;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+
+    location /api {  # Assuming Flask runs on localhost:5000
+        #allow 31.24.10.138;
+        #deny all;
+        proxy_pass http://127.0.0.1:5000;
+        include proxy_params;  # Includes parameters like headers necessary for proxying
+    }
+}
+
+

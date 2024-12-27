@@ -1,0 +1,81 @@
+
+.time-profile-container {
+  text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    user-select: none; /* Prevent text selection */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+  
+    
+  } 
+  .table-container{
+    max-height: 450px; /* Limit the height of the table container */   
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Disable horizontal scrolling */
+   /*touch-action: pan-y; Only allow vertical panning */
+  width: 100%; /* Ensure full width */
+  }
+  
+  /* Style the table itself */
+  .MuiTable-root {
+    background-color: #7c93c3; 
+    width: 100%; /* Make table full width */
+    table-layout: auto; /* Allow for dynamic column widths */
+   
+     
+  } 
+  /* Table header styling */
+  .MuiTableHead-root .MuiTableCell-root {
+    background-color: #62b6cb; /* Custom color for table header */
+    color: #ffffff; /* White text in the header */
+    font-weight: bold; 
+    text-align: center;
+     
+  }
+  /* Table row hover effect */
+  .MuiTableRow-root:hover {
+    background-color: #6699b9; 
+    
+  }
+  /* Add a border to each table cell */
+  .MuiTableCell-root {
+    border-bottom: 1px solid #dddddd;
+    width: 33.33%; /* Set each cell to take one-third of the table width */
+  text-align: center; /* Center text in cells */
+  padding: 4px; /* Reduce padding for smaller cells */
+  }
+  /* Style the time profile title (you can customize this for specific columns) */
+  .time-profile-title {
+    font-weight: bold;
+    color: #3f51b5; /* Color matching the header */
+    text-align: center;
+    
+    
+  }
+ 
+    /* Smaller font size for small devices */
+@media (max-width: 600px) {
+    .time-profile-container {
+        margin: 0.8em;
+        font-size: 8px; 
+        width: 99%;    
+    }    
+    .MuiTableCell-root {
+      padding: 2px; /* Further reduce padding for smaller devices */
+      font-size: 1px; /* Ensure font size is smaller */
+    }
+  }
+
+  .centered-container {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack components vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+  }
+  
+

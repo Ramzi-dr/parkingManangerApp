@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: auto; /* Allow the page to scroll */
+}
+
+.white-list {
+  background-color: #7c93c3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0rem;
+
+  margin: 0 auto;
+  max-width: 90%;
+  box-sizing: border-box;
+}
+
+/* Container holding the scrollable area */
+.scrollable-container {
+  max-height: 500%; /* Set the height for the container */
+  overflow-y: auto; /* Enable vertical scrolling within the container */
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding-right: 10px; /* Padding to avoid scrollbar overlap */
+  box-sizing: border-box;
+}
+
+.car-list {
+  padding: 0;
+  margin: 0;
+}
+
+.car-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+.car-name {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between first name and last name */
+}
+
+.first-name {
+  text-align: left;
+}
+
+.last-name {
+  text-align: left;
+}
+
+.car-plate {
+  text-align: left;
+  white-space: nowrap;
+  padding-right: 2%;
+  width: 25%;
+}

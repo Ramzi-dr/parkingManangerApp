@@ -1,0 +1,57 @@
+### API Endpoint: Get All Users
+The `/api/get_users` endpoint allows you to retrieve a list of all users by sending a `GET` request.
+ Authentication is required, and you must include a Bearer token in the request header. 
+ This endpoint fetches all users stored in the database and returns their details in JSON format.
+The response includes an array of user data, where each user is represented by an object containing 
+fields such as `id`, `firstName`, `lastName`, `email`, and `status`. 
+Example Request: `GET /api/get_users HTTP/1.1 Authorization: Bearer <your_token>`. 
+Example Response: `{ "users_data": [ { "id": 1, "firstName": "John", "lastName": "Doe",
+ "email": "john.doe@example.com", "status": "active" }, 
+ { "id": 2, "firstName": "Jane", "lastName": "Smith", "email": "jane.smith@example.com",
+  "status": "inactive" } ] }`. Possible Responses: - **200 OK**: Successfully fetched the list of users.
+   Example response: `{ "users_data": [ { "id": 1, "firstName": "John", "lastName": "Doe", 
+   "email": "john.doe@example.com", "status": "active" }, { "id": 2, "firstName": "Jane", 
+   "lastName": "Smith", "email": "jane.smith@example.com", "status": "inactive" } ] }`.
+    - **401 Unauthorized**: Missing or invalid authentication token. 
+    Example response: `{ "message": "Authorization required" }`.
+     - **500 Internal Server Error**: An error occurred while processing the request. 
+     Example response: `{ "message": "Internal server error" }`.
+
+
+
+
+
+
+### API Endpoint: Create User
+
+The `/api/create_user` endpoint allows you to create a new user by sending a `POST` request.
+ Authentication is required, and you must include a Bearer token in the request header. 
+ In the request body, you must provide the following fields: `firstName`, `lastName`, `email`,and `status`. The `firstName` and `lastName` fields are optional but will be capitalized automatically. The `email` field is required and must be unique across users and sub-users. The `status` field is required and should be either `"active"` or `"inactive"`. If the `email` or `status` fields are missing, or if the status is not valid, the server will return a `400 Bad Request` response with an appropriate message, such as "Email and status are required" or "Invalid status". If the email is already associated with an existing user or sub-user, the server will return a message indicating that the email already exists and will not create the new user. If the user is successfully created, the server will return a `201 Created` response with a message stating "User created successfully". Example Request: 
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "status": "active"
+} Possible Responses: 
+201 Created: Successfully created the user. Example response: 
+{
+  "message": "User created successfully"
+} 
+400 Bad Request: The request is invalid. Possible causes include missing fields or invalid status.
+ Example responses: 
+If required fields are missing: 
+{
+  "message": "Email and status are required"
+} 
+If the status is invalid: 
+{
+  "message": "Invalid status"
+} 
+If the email already exists as a user: 
+{
+  "message": "This email already exists as a user."
+} 
+If the email already exists as a sub-user: 
+{
+  "message": "This email already exists as a sub-user. Please delete it first."
+}

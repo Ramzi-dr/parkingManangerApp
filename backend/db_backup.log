@@ -1,0 +1,268 @@
+Traceback (most recent call last):
+  File "/home/AdminBST/server/backend/backup_db.py", line 115, in <module>
+    asyncio.run(start_scheduler())
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend/backup_db.py", line 105, in start_scheduler
+    await backup_database()
+  File "/home/AdminBST/server/backend/backup_db.py", line 95, in backup_database
+    shutil.copy2(DB_PATH, BACKUP_DB_PATH)
+  File "/usr/lib/python3.11/shutil.py", line 436, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './instance/mydatabase.db'
+Traceback (most recent call last):
+  File "/home/AdminBST/server/backend/backup_db.py", line 115, in <module>
+    asyncio.run(start_scheduler())
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend/backup_db.py", line 105, in start_scheduler
+    await backup_database()
+  File "/home/AdminBST/server/backend/backup_db.py", line 95, in backup_database
+    shutil.copy2(DB_PATH, BACKUP_DB_PATH)
+  File "/usr/lib/python3.11/shutil.py", line 436, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './instance/mydatabase.db'
+Traceback (most recent call last):
+  File "/home/AdminBST/server/backend/backup_db.py", line 115, in <module>
+    asyncio.run(start_scheduler())
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend/backup_db.py", line 105, in start_scheduler
+    await backup_database()
+  File "/home/AdminBST/server/backend/backup_db.py", line 95, in backup_database
+    shutil.copy2(DB_PATH, BACKUP_DB_PATH)
+  File "/usr/lib/python3.11/shutil.py", line 436, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './instance/mydatabase.db'
+Traceback (most recent call last):
+  File "/home/AdminBST/server/backend/backup_db.py", line 115, in <module>
+    asyncio.run(start_scheduler())
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend/backup_db.py", line 105, in start_scheduler
+    await backup_database()
+  File "/home/AdminBST/server/backend/backup_db.py", line 95, in backup_database
+    shutil.copy2(DB_PATH, BACKUP_DB_PATH)
+  File "/usr/lib/python3.11/shutil.py", line 436, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './instance/mydatabase.db'
+Traceback (most recent call last):
+  File "/home/AdminBST/server/backend/backup_db.py", line 115, in <module>
+    asyncio.run(start_scheduler())
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend/backup_db.py", line 105, in start_scheduler
+    await backup_database()
+  File "/home/AdminBST/server/backend/backup_db.py", line 95, in backup_database
+    shutil.copy2(DB_PATH, BACKUP_DB_PATH)
+  File "/usr/lib/python3.11/shutil.py", line 436, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './instance/mydatabase.db'
+Traceback (most recent call last):
+  File "/home/AdminBST/server/backend/backup_db.py", line 117, in <module>
+    asyncio.run(start_scheduler())
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend/backup_db.py", line 107, in start_scheduler
+    await backup_database()
+  File "/home/AdminBST/server/backend/backup_db.py", line 97, in backup_database
+    shutil.copy2(DB_PATH, BACKUP_DB_PATH)
+  File "/usr/lib/python3.11/shutil.py", line 436, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/AdminBST/server/instance/mydatabase.db'
+Traceback (most recent call last):
+  File "/home/AdminBST/server/backend/backup_db.py", line 117, in <module>
+    asyncio.run(start_scheduler())
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend/backup_db.py", line 107, in start_scheduler
+    await backup_database()
+  File "/home/AdminBST/server/backend/backup_db.py", line 97, in backup_database
+    shutil.copy2(DB_PATH, BACKUP_DB_PATH)
+  File "/usr/lib/python3.11/shutil.py", line 436, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/AdminBST/server/instance/mydatabase.db'
+Traceback (most recent call last):
+  File "/home/AdminBST/server/backend/backup_db.py", line 117, in <module>
+    asyncio.run(start_scheduler())
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend/backup_db.py", line 107, in start_scheduler
+    await backup_database()
+  File "/home/AdminBST/server/backend/backup_db.py", line 97, in backup_database
+    shutil.copy2(DB_PATH, BACKUP_DB_PATH)
+  File "/usr/lib/python3.11/shutil.py", line 436, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/AdminBST/server/instance/mydatabase.db'
+Traceback (most recent call last):
+  File "/home/AdminBST/server/backend/backup_db.py", line 117, in <module>
+    asyncio.run(start_scheduler())
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend/backup_db.py", line 107, in start_scheduler
+    await backup_database()
+  File "/home/AdminBST/server/backend/backup_db.py", line 97, in backup_database
+    shutil.copy2(DB_PATH, BACKUP_DB_PATH)
+  File "/usr/lib/python3.11/shutil.py", line 436, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/AdminBST/server/instance/mydatabase.db'
+Traceback (most recent call last):
+  File "/home/AdminBST/server/backend/backup_db.py", line 117, in <module>
+    asyncio.run(start_scheduler())
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend/backup_db.py", line 107, in start_scheduler
+    await backup_database()
+  File "/home/AdminBST/server/backend/backup_db.py", line 97, in backup_database
+    shutil.copy2(DB_PATH, BACKUP_DB_PATH)
+  File "/usr/lib/python3.11/shutil.py", line 436, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.11/shutil.py", line 256, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/AdminBST/server/instance/mydatabase.db'
+Traceback (most recent call last):
+  File "/home/AdminBST/server/backend/backup_db.py", line 117, in <module>
+    asyncio.run(start_scheduler())
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend/backup_db.py", line 107, in start_scheduler
+    await backup_database()
+  File "/home/AdminBST/server/backend/backup_db.py", line 98, in backup_database
+    await send_email(DB_PATH)
+  File "/home/AdminBST/server/backend/backup_db.py", line 52, in send_email
+    flow = InstalledAppFlow.from_client_secrets_file(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend_env/lib/python3.11/site-packages/google_auth_oauthlib/flow.py", line 198, in from_client_secrets_file
+    with open(client_secrets_file, "r") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+Traceback (most recent call last):
+  File "/home/AdminBST/server/backend/backup_db.py", line 117, in <module>
+    asyncio.run(start_scheduler())
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend/backup_db.py", line 107, in start_scheduler
+    await backup_database()
+  File "/home/AdminBST/server/backend/backup_db.py", line 98, in backup_database
+    await send_email(DB_PATH)
+  File "/home/AdminBST/server/backend/backup_db.py", line 54, in send_email
+    creds = flow.run_local_server(port=0)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/AdminBST/server/backend_env/lib/python3.11/site-packages/google_auth_oauthlib/flow.py", line 447, in run_local_server
+    webbrowser.get(browser).open(auth_url, new=1, autoraise=True)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/webbrowser.py", line 66, in get
+    raise Error("could not locate runnable browser")
+webbrowser.Error: could not locate runnable browser

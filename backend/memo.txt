@@ -1,0 +1,15 @@
+[Unit]
+Description=My Python Script Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/AdminBST/server
+ExecStart=/home/AdminBST/server/backend_env/bin/python /home/AdminBST/server/backend/main.py
+User=AdminBST
+Environment="PATH=/home/AdminBST/server/backend_env/bin:/usr/bin:/bin"
+EnvironmentFile=/home/AdminBST/server/.env
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

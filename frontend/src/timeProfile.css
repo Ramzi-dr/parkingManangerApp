@@ -1,0 +1,115 @@
+/* timeProfile.css */
+.table-wrapper{
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Centers the table horizontally */
+
+}
+.header-container {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.my-button-container {
+  width: 20vh; /* Set width */
+  margin-left: auto; /* Push the button to the right */
+  margin-top: 1rem; /* Add space above the button */
+  margin-right: 5%;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+label {
+  display: block; /* Make label a block element to center it */
+  text-align: center; /* Center text */
+  margin: 10px 0; /* Add margin for spacing */
+  
+}
+
+.react-datepicker-popper {
+  z-index: 1000; /* Set a higher z-index */
+}
+
+.timeProfile-input,
+.react-datepicker__input-container, .select-container{
+ 
+  text-align: center;
+  display: block; /* Make input a block element to center it */
+  margin: 0 auto; /* Center input on the page */
+  padding: 7px; /* Add padding */
+  width: 100%; /* Set width */
+  max-width: 900px; /* Optional: Limit maximum width */
+  border: 1px solid #09022d; /* Add border */
+  border-radius: 4px; /* Add rounded corners */
+}
+
+.select-container {
+  
+  width: 100%;
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  
+}
+
+.select-container > div {
+  
+  margin-left: 1rem; /* Space between date picker and select */
+}
+/* Smaller font size for small devices */
+@media (max-width: 600px) {
+  
+  .time-select,
+  .select-container {
+    width: 90%;
+    
+  }
+  .MuiTableHead-root .MuiTableCell-root .time-profile-title .time-profile-container{
+    font-size: 5px !important;
+  }
+}
+
+button {
+  display: block; /* Center button */
+  margin: 2rem auto; /* Center button on the page */
+  padding: 1rem 1rem; /* Add padding */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+}
+
+button:hover {
+  background-color: #092c504d; /* Darker blue on hover */
+}
+
+/* Customizing the DatePicker background and text color */
+.react-datepicker {
+  background-color: #455b8bf7; /* Change calendar background color */
+  border: 1px solid #1b1212;
+}
+
+.react-datepicker__header {
+  background-color: #62b6cb; /* Change header background color */
+  color: rgb(240, 240, 240); /* Change header text color */
+}
+
+.react-datepicker__day {
+  color: #ffffff; /* Change day text color */
+}
+
+.react-datepicker__day--selected {
+  background-color: #08090af7; /* Change selected day background color */
+  color: #468a9b; /* Change selected day text color */
+}
+
+.react-datepicker__day:hover {
+  color: rgb(148, 33, 33); /* Change hover text color */
+}
+
+.react-datepicker__current-month {
+  color: #ffffff; /* Change current month text color */
+}

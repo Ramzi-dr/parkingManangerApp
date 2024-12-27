@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+/* THIS IS THE OUTER DIV */
+.search-container {
+  display: flex;
+  max-width: 100%; 
+  align-items: center; 
+  justify-content: center;  
+}
+/* controls the search input field */
+.search-input {
+  display: inline-block;
+  width: 100%;
+  background-color: rgb(102, 158, 193);
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: black;
+}
+
+/* THIS IS THE INNER DIV */
+.search-box {
+  text-overflow: clip;
+  position: relative;
+  width: 90%;          /* Set width to 90% of the outer container */
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  height: auto;            /* Adjust height as needed */
+  box-sizing: border-box;  /* Ensures padding/margin don't affect the width */
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(4, 29, 38, 0.919);
+}
+
+.clear-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(4, 29, 38, 0.919);
+  cursor: pointer;
+}
+
+

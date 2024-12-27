@@ -1,0 +1,38 @@
+.alert-popup {
+  background-color: #cccfff;
+  width: 60%;
+  height: 50%;
+}
+
+.info-popup {
+  background-color: #cccfff;
+  width: 60%;
+  height: 50%;
+}
+
+.alert-title {
+  color: #ff0000fd; /* Red text for alerts */
+  font-size: 90%;
+}
+
+
+.info-title {
+  color: #004085;
+  font-size: 90%;
+}
+
+
+/* Icon size adjustments */
+.alert-popup .swal2-icon {
+  font-size: 0.5rem; /* Adjust the size as needed */
+}
+
+.info-popup .swal2-icon {
+  font-size: 0.5em; /* Adjust the size as needed */
+}
+.alert-confirm-button {
+  background-color: #9f0312;
+}
+.info-confirm-button {
+  background-color: #004085;
+}

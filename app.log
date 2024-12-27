@@ -1,0 +1,78 @@
+2024-11-25 08:16:55,539 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-25 08:16:55,542 - INFO - No changes detected. No backup sent.
+2024-11-25 08:16:55,542 - INFO - Added job "backup_database" to job store "default"
+2024-11-25 08:16:55,543 - INFO - Scheduler started
+2024-11-25 08:17:09,975 - INFO - Client connected: Av4Mpb9k2HcmyxxYAAAB
+2024-11-25 08:17:13,738 - INFO - Client disconnected: Av4Mpb9k2HcmyxxYAAAB
+2024-11-25 08:17:18,156 - INFO - Client connected: dtFjEjgVfGcGY5edAAAD
+2024-11-25 08:17:19,795 - INFO - Client disconnected: dtFjEjgVfGcGY5edAAAD
+2024-11-25 08:17:34,427 - INFO - Client connected: agZqu4pyYTCcsKVBAAAF
+2024-11-25 08:17:40,058 - INFO - Client disconnected: agZqu4pyYTCcsKVBAAAF
+2024-11-26 08:16:55,586 - INFO - Running job "backup_database (trigger: interval[1 day, 0:00:00], next run at: 2024-11-27 08:16:55 CET)" (scheduled at 2024-11-26 08:16:55.539125+01:00)
+2024-11-26 08:16:55,961 - INFO - Raw email response: <Response 319 bytes [200 OK]>
+2024-11-26 08:16:55,961 - INFO - Response data: {
+    "emails_data": [
+        {
+            "id": 1,
+            "first_name": "",
+            "last_name": "",
+            "email": "ramzi.d@outlook.com"
+        },
+        {
+            "id": 2,
+            "first_name": "",
+            "last_name": "",
+            "email": "rdr@einbruchschutz.ch"
+        }
+    ]
+}
+2024-11-26 08:16:55,961 - INFO - Parsed email response JSON: {'emails_data': [{'id': 1, 'first_name': '', 'last_name': '', 'email': 'ramzi.d@outlook.com'}, {'id': 2, 'first_name': '', 'last_name': '', 'email': 'rdr@einbruchschutz.ch'}]}
+2024-11-26 08:16:56,681 - INFO - Job "backup_database (trigger: interval[1 day, 0:00:00], next run at: 2024-11-27 08:16:55 CET)" executed successfully
+2024-11-27 08:16:30,971 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-27 08:16:30,973 - INFO - No changes detected. No backup sent.
+2024-11-27 08:16:30,974 - INFO - Added job "backup_database" to job store "default"
+2024-11-27 08:16:30,974 - INFO - Scheduler started
+2024-11-27 08:28:06,040 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-27 08:28:06,043 - INFO - No changes detected. No backup sent.
+2024-11-27 08:28:06,043 - INFO - Added job "backup_database" to job store "default"
+2024-11-27 08:28:06,043 - INFO - Scheduler started
+2024-11-27 08:34:13,569 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-27 08:34:13,572 - INFO - No changes detected. No backup sent.
+2024-11-27 08:34:13,573 - INFO - Added job "backup_database" to job store "default"
+2024-11-27 08:34:13,573 - INFO - Scheduler started
+2024-11-27 08:36:30,531 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-27 08:36:30,535 - INFO - No changes detected. No backup sent.
+2024-11-27 08:36:30,536 - INFO - Added job "backup_database" to job store "default"
+2024-11-27 08:36:30,536 - INFO - Scheduler started
+2024-11-27 08:58:14,097 - INFO - Email thread started.
+2024-11-27 08:58:14,102 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-27 08:58:14,106 - INFO - No changes detected. No backup sent.
+2024-11-27 08:58:14,107 - INFO - Added job "backup_database" to job store "default"
+2024-11-27 08:58:14,107 - INFO - Scheduler started
+2024-11-27 08:59:59,722 - INFO - Email thread started.
+2024-11-27 08:59:59,725 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-27 08:59:59,728 - INFO - No changes detected. No backup sent.
+2024-11-27 08:59:59,729 - INFO - Added job "backup_database" to job store "default"
+2024-11-27 08:59:59,729 - INFO - Scheduler started
+2024-11-27 09:02:09,132 - INFO - Email thread started.
+2024-11-27 09:02:09,134 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-27 09:02:09,139 - INFO - No changes detected. No backup sent.
+2024-11-27 09:02:09,139 - INFO - Added job "backup_database" to job store "default"
+2024-11-27 09:02:09,140 - INFO - Scheduler started
+2024-11-27 09:03:34,756 - INFO - Email thread started.
+2024-11-27 09:03:34,760 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-27 09:03:34,764 - INFO - No changes detected. No backup sent.
+2024-11-27 09:03:34,765 - INFO - Added job "backup_database" to job store "default"
+2024-11-27 09:03:34,766 - INFO - Scheduler started
+2024-11-27 09:05:45,435 - INFO - Email thread started.
+2024-11-27 09:05:45,439 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-27 09:05:45,443 - INFO - No changes detected. No backup sent.
+2024-11-27 09:05:45,444 - INFO - Added job "backup_database" to job store "default"
+2024-11-27 09:05:45,444 - INFO - Scheduler started
+2024-11-27 09:06:38,914 - INFO - Email thread started.
+2024-11-27 09:06:38,917 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-27 09:06:38,920 - INFO - No changes detected. No backup sent.
+2024-11-27 09:06:38,920 - INFO - Added job "backup_database" to job store "default"
+2024-11-27 09:06:38,921 - INFO - Scheduler started
+2024-11-27 09:07:09,287 - INFO - Relay is turned ON
+2024-11-27 09:07:12,287 - INFO - Relay is turned OFF
